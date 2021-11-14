@@ -22,22 +22,22 @@
 // const READ_ONLY = 1;
 // const AUTHOR = 2;
 
-enum Role {
-  ADMIN,
-  READ_ONLY,
-  AUTHOR,
-}
+// enum Role {
+//   ADMIN,
+//   READ_ONLY,
+//   AUTHOR,
+// }
 
-const person = {
-  name: "yota",
-  age: 30,
-  hobbies: ["Sports", "Cooking"],
-  role: Role.ADMIN,
-};
+// const person = {
+//   name: "yota",
+//   age: 30,
+//   hobbies: ["Sports", "Cooking"],
+//   role: Role.ADMIN,
+// };
 
-if (person.role === Role.ADMIN) {
-  console.log("hoge");
-}
+// if (person.role === Role.ADMIN) {
+//   console.log("hoge");
+// }
 
-let favoriteActivities: any[];
-favoriteActivities = ["Sports"];
+// let favoriteActivities: any[];
+// favoriteActivities = ["Sports"];
